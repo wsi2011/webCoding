@@ -1,0 +1,150 @@
+@charset "UTF-8";
+body{
+  text-align:center;
+  width:100%;
+}
+#wapper{
+  background-color:skyblue;
+  width:80%;
+  height:850px;
+  position:relative;
+  left:10%;
+}
+/* #about_wapper{
+  background-color:skyblue;
+  width:90%;
+  height:850px;
+  position:relative;
+  left:5%;
+} */
+.pictures>p{
+  float:left;
+  font-size: 15px;
+  max-width: 600px;
+  margin-top: 50px;
+  margin-left: 50px
+}
+
+.line{
+   border: 2px solid skyblue;
+    clear: left;
+    position: relative;
+    top: 25px;
+    bottom: 30px;
+}
+
+.pictures{
+  text-align: left;
+  margin-top: -70px;
+  overflow: hidden;
+}
+.pictures>img{
+  float:left;
+  width: 250px;
+  height: 200px;
+  margin-top: 50px;
+  border: 5px solid skyblue;
+}
+
+
+
+section > div > span {
+    display: block;
+    margin: 50px;
+}
+.about_text{
+  text-align:left;
+  margin-top:-70px;
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.bottom{
+  position: relative;
+  border:1px solid #eee;
+  margin:20px;
+  padding:10px 30px;
+  background-color:white;
+  font-size:15px;
+}
+
+.middle{
+  position: relative;
+  border:1px solid #eee;
+  margin:20px;
+  padding:100px 30px;
+  background-color:white;
+  font-size:15px;
+
+}
+.text{
+  margin-top:-70px;
+}
+
+.left{
+  float:left;
+  margin:0px 10px;
+  padding:20px 10px;
+  border:1px solid #93DAFF;
+  width:12%;
+  position:relative;
+  left:32%;
+  background-color:#A7EEFF;
+  box-shadow:3px 3px 3px 0px #00BFFF;
+}
+.right{
+  float:left;
+  margin:0px 10px;
+  padding:20px 10px;
+  border:1px solid #93DAFF;
+  width:12%;
+  position:relative;
+  left:32%;
+  background-color:#A7EEFF;
+  box-shadow:3px 3px 3px 0px #00BFFF;
+}
+
+.imgposition{
+  clear:left;
+}
+.imgposition img{
+  width:400px;
+  height: 300px;
+  margin-top: 30px;
+  position: relative;
+  left:-14px
+}
+.left, .right, .imgposition{
+  display: block;
+}
+.top{
+  border:1px solid #eee;
+  margin:20px;
+  padding:10px 30px;
+  position:relative;
+  top:10px;
+  background-color:white;
+  overflow:hidden;
+}
+.menu{
+  list-style:none;
+}
+.menu div{
+  float:left;
+  margin:0px 10px;
+  border:1px solid #93DAFF;
+  width:12%;
+  position:relative;
+  left:42%;
+  top:-10px;
+  background-color:#A7EEFF;
+  font-size:15px;
+  box-shadow:3px 3px 3px 0px #00BFFF;
+}
+a{
+  text-decoration:none;
+  font-weight: bold;
+}
+a:hover{
+  color: pink;
+}
